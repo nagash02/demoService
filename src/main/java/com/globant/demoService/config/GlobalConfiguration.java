@@ -16,9 +16,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @SpringBootApplication
 @ComponentScan(
     basePackages = {
-      "cl.haruna.uploader.controllers",
-      "cl.haruna.uploader.services",
-      "cl.haruna.uploader.repo"
+       "com.globant.demoService.controller",
+      "com.globant.demoService.services",
+      "com.globant.demoService.repository"
     })
 public class GlobalConfiguration implements WebMvcConfigurer {
 
