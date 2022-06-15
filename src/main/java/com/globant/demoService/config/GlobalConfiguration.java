@@ -17,7 +17,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @ComponentScan(
     basePackages = {
        "com.globant.demoService.controller",
-      "com.globant.demoService.services",
+      "com.globant.demoService.service",
       "com.globant.demoService.repository"
     })
 public class GlobalConfiguration implements WebMvcConfigurer {
